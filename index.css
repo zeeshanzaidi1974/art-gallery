@@ -1,0 +1,93 @@
+@use 'fonts';
+@use 'footer';
+@import 'fonts';
+@import 'footer';
+ body { width: 100%; margin: 20px; background-color: #E5E5E5;}
+ 
+ /*
+  artist.html*/
+  
+.main-artists { display: flex;/* 
+  
+  justify-content: center; /* why are the 'section-artist' not in the center*/
+ align-content: center;flex-direction: column;}
+ 
+ .white-section
+  { width: 80%;
+   height: 400px;
+    background-color: #E5E5E5;        display: flex;
+     justify-content: center; align-items: center;}
+     
+     
+    .section-artists-one { display: flex;
+     flex-direction: row;
+      justify-content: center; background-color: #DECAAF; 
+      width: 80%;}
+     
+     
+     .renefont
+      { color: #29304A;
+       max-width: 500px;
+        margin: 20px;}
+     
+     .btn-artist
+      { max-width: 400xp;
+       max-height: 55px; background-color: #AB7020;
+        color: #FFFFFF; 
+        font-family: 'Arvo', serif; 
+        font-size: 20px; transform: translate(20px, 20px);}
+     
+     .btn-artist:hover { background-color: #ca8a31; transform: scaleY(1.2) translate(20px, 20px);}
+     
+     .section-artists-two { display: flex; 
+     flex-direction: row;
+      justify-content: center; background-color: #29304A;
+       width: 80%;}
+ 
+ .trissfont { color: #EDE6DC;
+  max-width: 500px; 
+  margin: 20px;}
+  
+  .section-artists-three { display: flex; 
+  flex-direction: row; 
+  justify-content: center; background-color: #EDE6DC;
+   width: 80%;}
+   
+   
+   .irisfont { color: #29304A; max-width: 500px; 
+   margin: 20px;}
+   
+   
+   .rene-portrait-transform { max-width: 284px;
+    max-height: 345px;
+     transform: translate(40px, 40px);}
+   
+   
+  .triss-portrait-transform { max-width: 404px;
+   max-height: 308px;
+    transform: translate(40px, 40px);}
+    
+    
+    .iris-portrait-transform { max-width: 380px;
+     max-height: 276px;
+      transform: translate(40px, 40px);}
+      
+      @media screen and (max-width: 900px){ .rene-portrait-transform { max-width: 184px; max-height: 245px; }
+      
+      .triss-portrait-transform { max-width: 304px; max-height: 208px; }
+      
+      
+      .iris-portrait-transform { max-width: 280px; max-height: 176px; } }
+      
+    @media screen and (max-width: 600px)
+    { .rene-portrait-transform { max-width: 84px; max-height: 145px; }
+    
+    .triss-portrait-transform { max-width: 204px; max-height: 108px; }
+    .iris-portrait-transform { max-width: 180px; max-height: 76px; } }/*end artists*/
+    
+    
+    
+    
+    
+  
+ 
