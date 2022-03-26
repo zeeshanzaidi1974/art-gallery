@@ -1,0 +1,131 @@
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #29304A;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container_footer {
+    display:flex;
+    flex-direction: row;
+    width: 95%;
+} 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFFFFF;  
+}
+.container_footer li {
+    list-style-type: none;
+}
+.footer-li:hover {
+    transform: scale(1.2);
+}
+.footer-column-left {
+    transform:
+        translateX(200px);
+}
+.footer-column-middle {
+    transform:
+        translateX(200px);
+}
+.footer-column-right {
+    transform:
+        translateX(200px);
+}
+/* footer form */
+.form_footer{
+    transform: 
+        translateX(250px);
+}
+.label_form {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.btn-footer {
+    max-width: 226xp;
+    max-height: 45px;
+    background-color: #AB7020;
+    color: #FFFFFF;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+}
+.btn-footer:hover {
+    background-color: #ca8a31;
+    transform: scale(1.2);
+}
+#email {
+    max-width: 226xp;
+    max-height: 45px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.container_bottomfoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+/* It don't work! the icons need to get down and split up!*/
+}
+.all-rights {
+    color: #FFFFFF;
+}
+.container_icon {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-facebook-f{
+    color: #FFFFFF; 
+    margin: 20px;
+}
+.fa-facebook-f:hover {
+    transform: scale(1.2);
+}
+.fa-twitter {
+    color: #FFFFFF;
+    margin: 20px;
+}
+.fa-twitter:hover {
+    transform: scale(1.2);
+}
+.fa-linkedin-in {
+    color: #FFFFFF;   
+    margin: 20px;
+}
+.fa-linkedin-in:hover {
+    transform: scale(1.2);
+}
+.fa-pinterest-p {
+    color: #FFFFFF;     
+    margin: 20px;
+}
+.fa-pinterest-p:hover {
+    transform: scale(1.2);
+}
+@media screen and (max-width: 950px){
+    .footer-column-left {
+        transform:
+            translateX(100px);
+    }
+    .footer-column-middle {
+        transform:
+            translateX(100px);
+    }
+    .footer-column-right {
+        transform:
+            translateX(100px);
+    }
+    .form_footer{
+        transform: 
+            translateX(150px);
+    }
+}
+@media screen and (max-width: 850px){
+
+}
